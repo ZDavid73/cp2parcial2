@@ -17,6 +17,13 @@ const Home: React.FC<HomeProps> = ({ cuerpos, loading, error, onSelectCuerpo }) 
     <div>
       <h1>Cuerpos Celestes del Sistema Solar</h1>
       <div>
+      <text>Filtros:
+      planeta
+      planetoide
+      No lunas
+      lunas
+      </text>
+
         {cuerpos.map((body) => (
           <div key={body.id} onClick={() => onSelectCuerpo(body)}>
             <Cuerpocarta body={body} />
