@@ -1,0 +1,1 @@
+export {default as Cuerpocarta} from './carta/carta';

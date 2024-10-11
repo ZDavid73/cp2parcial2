@@ -1,6 +1,6 @@
 import React from 'react';
 import { Cuerpo } from '../types/types';
-import Cuerpocarta from '../componentes/carta/carta';
+import {Cuerpocarta} from '../componentes/import';
 
 interface HomeProps {
   cuerpos: Cuerpo[];
